@@ -44,7 +44,7 @@ const DLogin = () => {
     e.preventDefault();
     setLoading(true);
     if (formvalue.ID !== "" && formvalue.password !== "") {
-      if (placement === "Nurse") {
+      if (placement === "Patient") {
         let data = {
           ...formvalue,
           nurseID: formvalue.ID,
@@ -168,7 +168,7 @@ const DLogin = () => {
               onChange={placementChange}
               className={"radiogroup"}
             >
-              <Radio.Button value="Nurse" className={"radiobutton"}>
+              <Radio.Button value="Patient" className={"radiobutton"}>
                 Patient
               </Radio.Button>
               <Radio.Button value="Admin" className={"radiobutton"}>
