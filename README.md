@@ -44,7 +44,6 @@ Hospital management system is a website which can control all the management rel
 - **Node Js**
 - **Mongo DB**
 - **Express Js**
-- **JWT**
 - **Nodemailer**
 
 ## Deployment
